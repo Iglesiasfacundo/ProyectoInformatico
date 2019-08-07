@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Generador de Memes</title>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="src/css/styles.css">
+
+</head>
+
+<body>
+  <div class="presentacion">
+    <h1>Generador de Memes<h1>
+  </div>
+  <div id="mycanvas" class="none">
+    <canvas id="canvas" style="border: 10px solid black" width="700" height="500"></canvas>
+  </div>
+    <div class="imagen">
+        <input id="imagen" type="file" />
+    </div>
+    <div class="generar">
+        <button id="subir" onclick="SubirImagen();">Generar</button>
+    </div>
+</div>
+<p class="p1"><b>Ingrese un texto</b></p>
+    <div class="texto">
+        <input id="texto" type="text" onkeyup="Texto();" maxlength="20"/>
+    </div>
+    <div>
+        <p class="p2"><b>Presione click derecho y</b></p>
+        <p class="p3"><b> "Guardar como" para guardar la imagen</b></p>
+    </div>
+    <div class="footer">
+    <footer>
+      <h3>Facundo Iglesias 4°2°</h3>
+      <p><a href="https://github.com/Iglesiasfacundo/ProyectoInformatico">Página Github</a></p>
+    </footer>
+  </div>
+  <script src="src/js/javascript.js"></script>
+</body>
+
+</html>
