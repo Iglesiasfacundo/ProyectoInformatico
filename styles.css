@@ -1,0 +1,53 @@
+body{
+  background: -webkit-linear-gradient(left, rgba(107,0,25,1) 0%, rgba(107,0,25,1) 17%, rgba(141,2,34,1) 56%, rgba(171,3,42,1) 84%, rgba(171,3,42,1) 100%);
+}
+
+#mycanvas{
+  margin-left: 30em;
+  margin-top: 5em;
+}
+
+.imagen{
+  margin-top: -20em;
+  margin-left: 3em;
+}
+
+.generar{
+  margin-top: 1em;
+  margin-left: 5em;
+}
+
+.p1{
+  margin-top: 1em;
+  margin-left: 2.2em;
+  font-size: 20px;
+}
+
+.texto{
+  margin-left: 2em;
+}
+
+.p2{
+  margin-left: 1em;
+  font-size: 20px;
+}
+
+.p3{
+  margin-left: 1em;
+  font-size: 20px;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 7em;
+}
+
+p a{
+  color: black;
+  font-size: 20px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
